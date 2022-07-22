@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "push": "git add . && git commit -m \"done some changes\" && git push heroku main && git push"
   },
   "author": "",
   "license": "ISC",
